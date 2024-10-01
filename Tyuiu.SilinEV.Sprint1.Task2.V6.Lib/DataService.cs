@@ -6,7 +6,7 @@ namespace Tyuiu.SilinEV.Sprint1.Task2.V6.Lib
     {
         public double ConvertMToKm(int value)
         {
-            return value / 1000;
+            return Convert.ToDouble(value) / 1000;
         }
     }
 }
