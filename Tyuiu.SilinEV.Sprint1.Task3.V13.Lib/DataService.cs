@@ -6,7 +6,7 @@ namespace Tyuiu.SilinEV.Sprint1.Task3.V13.Lib
     {
         public double MultiplyOfDigits(double number)
         {
-            string a = number.ToString();
+            string a = Convert.ToString(number);
             return a[0] * a[1] * a[2];
         }
     }
