@@ -9,10 +9,8 @@ Console.WriteLine("z = ----------------");
 Console.WriteLine("               2");
 Console.WriteLine("       ln(1 + x)");
 
-double x;
-
 Console.WriteLine("Введите значение X:");
-x = Convert.ToDouble(Console.ReadLine());
+double x = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
