@@ -21,7 +21,7 @@ namespace Tyuiu.SilinEV.Sprint1.Task6.V4.Lib
                 }
             }
 
-            a.Trim();
+            a = a.Trim();
 
             return a;
         }
